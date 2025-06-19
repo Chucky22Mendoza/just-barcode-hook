@@ -107,7 +107,7 @@ interface Scanner {
 
 ## License
 
-Distributed under the [MIT License](https://github.com/Chucky22Mendoza/LogInLock-kit/blob/main/LICENSE).
+Distributed under the [MIT License](https://github.com/Chucky22Mendoza/just-barcode-hook/blob/main/LICENSE).
 
 ---
 
