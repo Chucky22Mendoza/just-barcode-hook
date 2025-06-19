@@ -1,0 +1,64 @@
+{
+  "name": "just-barcode-hook",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Jesús Mendoza Verduzco",
+    "email": "loginlock22@gmail.com",
+    "github": "https://github.com/Chucky22Mendoza",
+    "url": "https://jesus-mendoza.pages.dev/"
+  },
+  "repository": {
+    "url": "git+https://github.com/Chucky22Mendoza/just-barcode-hook.git",
+    "type": "github"
+  },
+  "homepage": "https://github.com/Chucky22Mendoza/just-barcode-hook/readme",
+  "license": "MIT",
+  "description": "A simple React hook for read barcode from devices emulating a fast keyboard.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest --ui"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "barcode",
+    "keyboard",
+    "input",
+    "fast-input",
+    "keyboard-input",
+    "barcode-reader",
+    "barcode-hook",
+    "just-barcode-hook"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vitest": "^1.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.2.1",
+    "@types/node": "^24.0.3",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/ui": "^1.3.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}

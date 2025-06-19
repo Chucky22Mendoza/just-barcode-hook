@@ -1,0 +1,7 @@
+src/
+*.ts
+*.tsx
+tsconfig*.json
+vite.config.ts
+tests/
+*.test.*
